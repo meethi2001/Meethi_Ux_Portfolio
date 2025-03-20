@@ -279,7 +279,7 @@
   }
   
   .project-card p{
-    font-size: 1.6rem;
+    font-size: 1.8rem;
   }
   
   .contact{
@@ -319,11 +319,19 @@
   }
   .footer ul{
     text-align: center;
-    font-size: 1.8re;
+    font-size: 1.8rem;
   }
   .footer ul li{
     display: inline-block;
     margin-left: 20px;
+  }
+  .footer ul li a{
+    color:white;
+    border-bottom: 3px solid transparent;
+    transition: 0.3s ease-in-out;
+  }
+  .footer ul li a:hover{
+    border-bottom: 3px solid var(--main-color);
   }
   .footer .copyright{
     text-align: center;
@@ -331,7 +339,7 @@
     font-size: 16px;
   }
 
-  @media(max-width:1440px){
+  @media(max-width:1285px){
     #menu-icon{
       display: block;
     }
@@ -341,7 +349,7 @@
       right: 0;
       width: 50%;
       padding: 1rem 3rem;
-      background: rgba(0, 0, 0, 0.8);
+      background: rgba(0, 0, 0, 0.8); 
       border-top-left-radius: 2rem;
       border-left: 2px solid var(--main-color);
       border-bottom: 2px solid var(--main-color);
@@ -465,10 +473,6 @@
     color: var(--text-color);
     font-size: 1.6rem;
 }
-@media (max-width: 768px) {
-  html {
-    font-size: 50%; /* Adjust base font size for small screens */
-  }
 
   .home {
     gap: 3rem;
@@ -508,4 +512,3 @@
     font-size: 1.6rem;
     padding: 1rem 2rem;
   }
-}
