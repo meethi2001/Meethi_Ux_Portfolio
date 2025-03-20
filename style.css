@@ -474,6 +474,11 @@
     font-size: 1.6rem;
 }
 
+@media (max-width:768px) { html {
+    font-size: 50%}
+.projects-box{
+flex-direction:column;
+}
   .home {
     gap: 3rem;
     flex-direction: column-reverse;
