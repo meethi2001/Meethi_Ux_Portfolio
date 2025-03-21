@@ -482,7 +482,6 @@
   .projects-box {
     grid-template-columns: 1fr;
     justify-content: center;
-    text-align: center;
   }
 
   .project-card img {
