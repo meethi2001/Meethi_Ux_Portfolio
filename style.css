@@ -346,14 +346,19 @@
     .navbar{
       position: absolute;
       top: 100%;
-      right: 0;
-      width: 50%;
+      left: 0;
+      width: 100%;
       padding: 1rem 3rem;
       background: rgba(0, 0, 0, 0.8); 
       border-top-left-radius: 2rem;
       border-left: 2px solid var(--main-color);
       border-bottom: 2px solid var(--main-color);
       display: none;
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      display: none;
+    }
     }
     .navbar a{
       display: block;
@@ -474,46 +479,20 @@
     font-size: 1.6rem;
 }
 
-@media (max-width:768px) { html {
-    font-size: 50%}
-.projects-box{
-flex-direction:column;
-}
-  .home {
-    gap: 3rem;
-    flex-direction: column-reverse;
+.projects-box {
+    grid-template-columns: 1fr;
   }
 
-  .home-content h1 {
-    font-size: 5rem;
+  .project-card img {
+    max-width: 90%;
   }
 
-  .home-content h3 {
-    font-size: 2.5rem;
+  .contact form {
+    flex-direction: column;
   }
 
-  .home-image img {
-    width: 80vw;
+  .contact form .input-box input,
+  .contact form textarea {
+    width: 90%;
   }
 
-  .about {
-    flex-direction: column-reverse;
-    gap: 3rem;
-  }
-
-  .about h2 {
-    font-size: 4rem;
-  }
-
-  .about-content p {
-    font-size: 1.5rem;
-  }
-
-  .navbar {
-    width: 80%;
-  }
-
-  .btn {
-    font-size: 1.6rem;
-    padding: 1rem 2rem;
-  }
