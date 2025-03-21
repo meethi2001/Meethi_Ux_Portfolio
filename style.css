@@ -339,7 +339,7 @@
     font-size: 16px;
   }
 
-  @media(max-width:1285px){
+  @media(max-width:440px){
     #menu-icon{
       display: block;
     }
@@ -479,8 +479,10 @@
     font-size: 1.6rem;
 }
 
-.projects-box {
+  .projects-box {
     grid-template-columns: 1fr;
+    justify-content: center;
+    text-align: center;
   }
 
   .project-card img {
