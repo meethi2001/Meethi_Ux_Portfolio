@@ -340,7 +340,7 @@
   }
     @media (max-width: 440px) {
   html {
-    font-size: 50%; /* Adjusted for better readability */
+    font-size: 50%;
   }
 
   .header {
