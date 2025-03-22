@@ -414,7 +414,7 @@
                 0 0 50px var(--main-color);
 }
 
-.about-page-footer {
+.footer {
   background-color: var(--second-bg-color);
   padding: 5rem 0;
   text-align: center;
