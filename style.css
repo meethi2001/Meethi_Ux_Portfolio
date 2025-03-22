@@ -215,6 +215,11 @@
   .about-content .btn{
     margin: 3rem 0;
   }
+  .about-content h2 {
+    font-size: 7rem;
+    margin-bottom: 3rem;
+    text-align: center !important;
+  }
 
    ::-webkit-scrollbar{
     width: 20px;
