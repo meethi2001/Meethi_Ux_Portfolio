@@ -360,8 +360,8 @@
     font-size: 7rem;
     margin-bottom: 2rem;
     text-align: center;
-    padding-top: 10px;
-    padding-bottom: 10px:
+    padding-top: 16px;
+    padding-bottom: 16px:
 }
 
 .about-content p {
@@ -370,6 +370,8 @@
     line-height: 1.8;
     margin-bottom: 2rem;
     text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .about-content h3 {
@@ -377,6 +379,8 @@
     margin-top: 6rem;
     margin-bottom: 6rem;
     text-align: center;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .about-content ul {
